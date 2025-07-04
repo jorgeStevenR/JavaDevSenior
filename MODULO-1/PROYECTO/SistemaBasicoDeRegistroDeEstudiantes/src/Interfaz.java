@@ -68,9 +68,9 @@ public class Interfaz {
                 case 0: System.out.println("Saliendo del sistema...");
                         scanner.close();
                         salir = true; 
-                        break;
+                break;
 
-                default:
+                default:System.out.println("Opción no válida. Por favor, intente de nuevo.");
                     break;
             }
 
